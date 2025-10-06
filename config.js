@@ -45,7 +45,7 @@ class EnterpriseConfigurationManager {
                 ownerIds: ["168183689610526720"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
                 supportServer: "https://discord.gg/J7YdRDqP",    // 👈 Your support server link
-                defaultStatus: "DIOS, VIVA EL CP!"         // 👈 Bot status message
+                defaultStatus: "PUTALOCURA.COM!"         // 👈 Bot status message
             },
             
             features: this.constructAdvancedFeatureConfiguration()
@@ -101,4 +101,5 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
 
