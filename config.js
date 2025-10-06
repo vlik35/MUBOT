@@ -42,10 +42,10 @@ class EnterpriseConfigurationManager {
              */
             bot: {
                 prefix: EnvironmentVariableProcessor.BOT_PREFIX || "!",  // 👈 prefix (!, ?, etc)
-                ownerIds: ["1004206704994566164"],      // 👈 ADD YOUR DISCORD ID HERE
+                ownerIds: ["168183689610526720"],      // 👈 ADD YOUR DISCORD ID HERE
                 embedColor: 0x00AE86,               // 👈 Bot embed color (hex)
-                supportServer: "https://discord.gg/xQF9f9yUEM",    // 👈 Your support server link
-                defaultStatus: "🎵 Ready for music!"         // 👈 Bot status message
+                supportServer: "https://discord.gg/J7YdRDqP",    // 👈 Your support server link
+                defaultStatus: "DIOS, VIVA EL CP!"         // 👈 Bot status message
             },
             
             features: this.constructAdvancedFeatureConfiguration()
@@ -101,3 +101,4 @@ module.exports = primaryApplicationConfiguration;
  * Never share your bot token or database URI publicly!
  * Use environment variables in production!
  */
+
