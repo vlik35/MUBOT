@@ -86,8 +86,7 @@ module.exports = {
             }
 
             const embed = new EmbedBuilder().setDescription(description);
-            return interaction.editReply({ embeds: [embed] })
-                .then(() => setTimeout(() => interaction.deleteReply().catch(() => {}), 10000));
+            return interaction.editReply({ embeds: [embed] });
 
         } catch (error) {
             console.error('Queue command error:', error);
@@ -104,3 +103,4 @@ function formatDuration(duration) {
     const seconds = Math.floor((duration % 60000) / 1000);
     return `${minutes}:${seconds.toString().padStart(2, '0')}`;
 }
+
